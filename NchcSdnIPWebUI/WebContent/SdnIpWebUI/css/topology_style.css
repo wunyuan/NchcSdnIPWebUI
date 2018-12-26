@@ -1,0 +1,121 @@
+body {
+
+    font-family: "Times New Roman", Times, serif, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: white; 
+}
+.top {
+	
+	background-color: white;
+	border-bottom:1px black solid;
+	position: relative;
+    width: 900px;
+    left: 25%;
+}
+
+
+#cy {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index:-1;
+
+}
+
+
+
+#flowinfo {
+	width:650px;
+	display: none;
+	position:absolute;
+	z-index: 1;
+	resize:vertical;
+	font-size:30px;
+	border:3px gray solid;
+	top:20%;
+	left: 2%;
+	background-color:white;
+}
+
+
+#networklist {
+	width:300px;
+	display: none;
+	height: 250px;
+	position:absolute;
+	z-index: 1;
+	resize:vertical;
+	font-size:20px;
+	border:3px gray solid;
+	top:20%;
+	right: 2%;
+	background-color:white;
+}
+
+#crossLinePic {
+	position:absolute;
+	right:1%;
+	top:4%;
+
+}
+
+#networklistClosePic {
+	position:absolute;
+	right:1%;
+	top:4%;
+
+}
+
+.networkdomain {
+	margin-top: 7px;
+}
+
+.pathFlow {
+	position:relative;
+	font-size: 14px;
+	border-bottom: 2px lightgray solid;
+	list-style-type: none;
+	margin-top: 10px;
+	right: 6%;
+
+}
+
+.hopCount {
+	color: blue;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+#sdnHop {
+	width: 350px;
+	position:absolute;
+	background-color:white;
+	overflow: scroll;
+	font-size: 14px;
+	border: 3px gray solid;
+	list-style-type: none;
+	top: 21.5%;
+	left: 37%;
+	display: none;
+	z-index: 1;
+	resize:vertical;
+}
+
+.sdnSwtich {
+	position:relative;
+	width: 300px;
+	font-size: 14px;
+	border-bottom: 2px lightgray solid;
+	list-style-type: none;
+	margin-top: 10px;
+	left:5%;
+}
+
+.swDivcrossLinePic {
+	position:absolute;
+	right:1%;
+	top:4%;
+}
+
